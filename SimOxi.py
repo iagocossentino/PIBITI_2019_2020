@@ -653,7 +653,7 @@ class Page1(Page):
       self.entry1.grid(row=10,column=10)
       #self.entry1.grid(row=1,column=1)
 
-      btn1 = tk.Button(variablescontainer, text="Glc", command=self.muda_par1, width = 10)
+      btn1 = tk.Button(variablescontainer, text="Glc", command=self.muda_par1, width = 15)
       btn1.grid(row=10,column=20)
 
       self.label2 = tk.Label(variablescontainer, text = "0.0 uL")
@@ -662,7 +662,7 @@ class Page1(Page):
       self.entry2 = tk.Entry(variablescontainer)
       self.entry2.grid(row=20,column=10)
 
-      btn2 = tk.Button(variablescontainer, text="oligo", command=self.muda_par2, width = 10)
+      btn2 = tk.Button(variablescontainer, text="oligo", command=self.muda_par2, width = 15)
       btn2.grid(row=20,column=20)
 
       self.label3 = tk.Label(variablescontainer, text = "0.0 uL")
@@ -671,13 +671,13 @@ class Page1(Page):
       self.entry3 = tk.Entry(variablescontainer)
       self.entry3.grid(row=30,column=10)
 
-      btn3 = tk.Button(variablescontainer, text="fccp", command=self.muda_par3, width = 10)
+      btn3 = tk.Button(variablescontainer, text="fccp", command=self.muda_par3, width = 15)
       btn3.grid(row=30,column=20)
 
-      self.btnADP = tk.Button(variablescontainer, text="Add ADP", command=self.add_ADP, width = 10, bg = 'yellow')
+      self.btnADP = tk.Button(variablescontainer, text="Adicionar ADP", command=self.add_ADP, width = 15, bg = 'yellow')
       self.btnADP.grid(row=40,column=20)
 
-      self.btnenable = tk.Button(variablescontainer, text="resume", command=self.muda_enable, width = 10, height = 3, bg = 'green', fg = 'black')
+      self.btnenable = tk.Button(variablescontainer, text="Iniciar", command=self.muda_enable, width = 10, height = 3, bg = 'green', fg = 'black')
       self.btnenable.grid(row=10,column=30, rowspan = 20)
       self.btnenable.bind("<Return>", self.muda_enable)
       
@@ -729,12 +729,12 @@ class Page1(Page):
 
       if enable == 1:
         enable = 0;
-        self.btnenable["text"] = "resume";
+        self.btnenable["text"] = "Retomar";
         self.btnenable["bg"] = 'green'
         self.btnenable["fg"] = 'black'
       else:
         enable = 1;
-        self.btnenable["text"] = "pause";
+        self.btnenable["text"] = "Pausar";
         self.btnenable["bg"] = 'red'
         self.btnenable["fg"] = 'white'
         
@@ -750,14 +750,14 @@ class Page1(Page):
         
         if N_ADP > i:
             N_ADP = i;   
-            self.btnADP["text"] = "Added!";
+            self.btnADP["text"] = "ADP Adicionado!";
             self.btnADP["bg"] = 'gray'
             
     def remove_ADP(self):
         global N_ADP, N
         
         N_ADP = N;
-        self.btnADP["text"] = "Add ADP";
+        self.btnADP["text"] = "Adicionar ADP";
         self.btnADP["bg"] = 'yellow'
             
     def resetride(self):
@@ -780,7 +780,7 @@ class Page1(Page):
         self.label2["text"] = "0.0 uL"
         self.label3["text"] = "0.0 uL"
 
-        self.btnenable["text"] = "resume";
+        self.btnenable["text"] = "Iniciar";
         self.btnenable["bg"] = 'green'
         self.btnenable["fg"] = 'black'
         
@@ -859,7 +859,7 @@ class Page4(Page):
 class MainView(tk.Frame):
     def __init__(self, *args, **kwargs):
         tk.Frame.__init__(self, *args, **kwargs)
-        self.master.title("Mitochondria Graph Plotter")
+        self.master.title("Simulação de Oximetria")
         p1 = Page1(self)
         p2 = Page2(self)
         p3 = Page3(self)
@@ -900,10 +900,10 @@ if __name__ == "__main__":
   root = tk.Tk()
   main = MainView(root)
   main.pack(side="top", fill="both", expand=True)
-  root.wm_geometry("900x600+200+50")
+  root.wm_geometry("900x650+200+30")
 
   ani = animation.FuncAnimation(figure, animate, interval=200)
 
-  if os.path.exists('cell2.ico') == True:
-    root.iconbitmap(r'cell2.ico') #icone de <div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  if os.path.exists('cell.ico') == True:
+    root.iconbitmap(r'cell.ico') #icone de <div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   root.mainloop()

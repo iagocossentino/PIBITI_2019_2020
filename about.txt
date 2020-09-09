@@ -1,15 +1,28 @@
 PROJETO PIBITI 2019-2020
 
-ORIENTADOR:
+INSTITUIÇÃO
+
+	Universidade de Brasília (UnB) 
+
+ORIENTADOR
+
 	Jair Trapé Goulart
 
-ALUNOS:
+ALUNOS
+
 	17/0055906	Amanda dos Santos Pereira
 	17/0009327	Elysa Beatriz de Oliveira Damas
 	17/0012441	Iago Cossentino de Andrade
 	
-GITHUB:
-	
+GITHUB
 
-REFERÊNCIAS:
+	Github Amanda: https://github.com/amanda2703/PIBIC/blob/master/corrida_MK.py
+	Github Iago: https://github.com/iagocossentino/PIBITI_2019_2020
+
+REFERÊNCIAS
+
+
+CRÉDITOS
+
+	Imagem da logo: https://www.flaticon.com/authors/surang
 
