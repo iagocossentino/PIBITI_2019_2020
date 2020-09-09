@@ -1,1 +1,17 @@
-Tutorial abriu!
+COMO UTILIZAR
+
+	A Simulação de Oximetria é baseada nos trabalhos de Gerhard Magnus e Joel Keizer e demonstra, segundo o modelo matemático como se comporta o fluxo de oxigênio durante uma oximetria. A execução é realizada dentro de alguns parâmetros específicos durante o tempo de 10 min acelerados. Ao longo da corrida, as entradas de Glicose (Glc), Oligomicina (oligo), Carbonil cianida p−trifluorometoxifenilhidrazona (fccp) e Adenosina difosfato (ADP) podem ser adicionadas dentro dos seguintes limites com os respectivos botões:
+
+	Glc: Adições até 7mM, tendo um valor inicial de 2.8mM;
+
+	oligo: Adições até 0.2uL, tendo o valor inicial de 0uL;
+
+	fccp: Adições até 1uL, tendo o valor inicial de 0uL;
+
+	ADP: Adição única.
+
+	É recomendável que a simulação seja pausada para que valores sejam alterados, visto que muitos cálculos são realizados ao mesmo tempo durante a plotagem. O botão de reset reinicia toda a corrida.
+
+ONDE REPORTAR BUGS?
+
+	https://github.com/iagocossentino/PIBITI_2019_2020

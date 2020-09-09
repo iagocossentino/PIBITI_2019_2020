@@ -1,4 +1,5 @@
 ATIVIDADE DA CADEIA TRANSPORTADORA DE ELÉTRONS
+
 	As mitocôndrias exercem atividades importantes para manutenção da vida e podem ser alvo de estudo para explicar diversas doenças. Por esse motivo, foi desenvolvido um método que quantifica o consumo de oxigênio pelas mitocôndrias a fim de estudar suas funções frente às patologias: a oximetria, conhecida também como respirometria de alta resolução. A quantificação do consumo de oxigênio é feito avaliando a atividade da cadeia transportadora de elétrons.
 
 	Na cadeia transportadora, os elétrons se movem do NADH, succinato ou outro doador de elétrons, por proteínas e citocromos, até o O2, e por esse motivo podemos quantificar o consumo de oxigênio pelas mitocôndrias. O elétron durante essa atividade perde energia, que é utilizada para bombear prótons para o espaço intermembrana pelos complexos I, III e IV da cadeia transportadora de elétrons, gerando um gradiente eletroquímico através da membrana mitocondrial interna. 
@@ -8,15 +9,18 @@ ATIVIDADE DA CADEIA TRANSPORTADORA DE ELÉTRONS
 	Durante todas essas atividades os prótons apenas foram bombeados da matriz mitocondrial para o espaço intermembrana gerando um gradiente eletroquímico na membrana da matriz mitocondrial. Esses prótons retornam à matriz mitocondrial por meio da ATP sintase e a energia desse gradiente eletroquímico é utilizada para formar ATP, a partir da adição de um grupo fosfato ao ADP, estabilizando a concentração de prótons dentro e fora da matriz. 
 
 GLICOSE
+
 	Para iniciarmos o experimento precisamos adicionar a glicose, que alimenta o Ciclo do Ácido Cítrico gerando substratos importantes para a Cadeia Transportadora de Elétrons: NADH + H+ e FADH2, que entregam seus elétrons para os complexos I e II, respectivamente.
 	A glicose nessa simulação é equivalente aos reagentes piruvato, malato e succinato, que são mais comumente utilizados no dia-a-dia do nosso laboratório. 
 
 ADP
+
 	Como até o momento os prótons apenas foram bombeados para fora da matriz ao adicionarmos glicose, e o gradiente eletroquímico gerado inibe as atividades dos complexos I, III e IV, já que temos baixa disponibilidade de H+ na matriz, é necessário que H+ seja transportado para dentro da matriz mitocondrial por meio da ATP sintase.
 
 	Para a ATP sintase operar adicionamos o ADP ao experimento, após termos a adicionado glicose, e assim podemos avaliar a capacidade máxima do complexo I e/ou do complexo II acoplando-a à síntese de ATP, já que teremos a concentração de H+ equilibrada.
 	Podemos observar até agora as atividades dos complexos I, III e IV e a atividade da ATP sintase.
 
 OLIGOMICINA E FCCP
+
 	O reagente oligomicina é adicionado no experimento para inibir a ATP sintase.
-	A intenção ao inibir a atividade da ATP sintase é verificar a capacidade máxima do sistema de transporte de elétrons. Para realizar essa verificação é necessário que os prótons sejam transferidos para a matriz por meio de outro carreador de prótons. No laboratório utilizamos o FCCP como molécula carreadora de prótons para avaliarmos essa atividade.
+	A intenção ao inibir a atividade da ATP sintase é verificar a capacidade máxima do sistema de transporte de elétrons. Para realizar essa verificação é necessário que os prótons sejam transferidos para a matriz por meio de outro carreador de prótons. No laboratório utilizamos o FCCP como molécula carregadora de prótons para avaliarmos essa atividade.
