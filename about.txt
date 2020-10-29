@@ -16,11 +16,14 @@ ALUNOS
 	
 GITHUB
 
-	Github Amanda: https://github.com/amanda2703/PIBIC/blob/master/corrida_MK.py
+	Github Amanda: https://github.com/amanda2703/PIBIC
 	Github Iago: https://github.com/iagocossentino/PIBITI_2019_2020
 
 REFERÊNCIAS
 
+	Magnus G, Keizer J: Minimal model of beta-cell mitochondrial Ca2+ handling. Am J Physiol 1997; 273(2 Pt 1):C717-C733. DOI: 10.1152/ajpcell.1997.273.2.C717
+	Magnus G, Keizer J: Model of beta-cell mitochondrial calcium handling and electrical activity. I. Cytoplasmic variables. Am J Physiol 1998; 274(4):C1158-C1173. DOI: 10.1152/ajpcell.1998.274.4.C1174
+	Oroboros Ecosystem [Internet]. Basel: O2k-Procedures [cited 2020 Sep 18]. Available from: https://wiki.oroboros.at/index.php/O2k-Procedures.
 
 CRÉDITOS
 
