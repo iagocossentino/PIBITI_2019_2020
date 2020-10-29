@@ -63,7 +63,7 @@ def animate(j):
   global NADHm, ADPm, Cam, dp, ADPi, dJhyd, Jo, JHres, JHleak, JpF1, JHF1, Juni, JNaCa, Jant, Jred, JpTCA, Jpgly, Jhyd, dJhydss
 
   batch_size = 10
-  script = True #False
+  script = False
 
   while ((i in range(1,N_ADP)) & enable == 1):
     # span for next time step
